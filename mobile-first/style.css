@@ -4,7 +4,7 @@ body {
 
 /* smartphone */
 
-@media (max-width: 480px) {
+@media (max-width:767px) {
 
 header {
     display: flex;
@@ -94,7 +94,6 @@ a.telephon:link {
     text-align: center;
     text-decoration: none;
     margin: auto;
-    font-size: 1.2em;
     color: rgb(155, 236, 155);
 }
 
@@ -142,7 +141,7 @@ footer {
 
 /* tablet */
 
-@media (max-width: 920px) {
+@media only screen and (min-width : 768px) and (max-width : 1199px) {
 
     header {
         display: flex;
@@ -235,7 +234,6 @@ footer {
         text-align: center;
         text-decoration: none;
         margin: auto;
-        font-size: 1.2em;
         color: rgb(155, 236, 155);
     }
     
@@ -286,7 +284,7 @@ footer {
 
 /* desktop */
 
-@media (max-width: 1280px) {
+@media only screen and (min-width : 1200px) {
 
     header {
         display: flex;
@@ -379,7 +377,6 @@ footer {
         text-align: center;
         text-decoration: none;
         margin: auto;
-        font-size: 1.2em;
         color: rgb(155, 236, 155);
     }
     
