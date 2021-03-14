@@ -41,6 +41,7 @@ li {
     width: 100%;
     /*background-color: rgb(0,255,0);*/
     background-color:rgb(155, 236, 155);
+    /* how is it possible to color the back-ground 100% ? ;-(( */
     padding-bottom: 2em;
 }
 
@@ -93,7 +94,7 @@ a.telephon:link {
     text-align: center;
     text-decoration: none;
     margin: auto;
-    font-size: 2em;
+    font-size: 1.5em;
     color: rgb(155, 236, 155);
 }
 
@@ -129,6 +130,7 @@ footer {
     margin-top: 3em;
     padding: 0.5em;
     background-color: black;
+    /* how is it possible to color the back-ground 100% ? ;-(( */
     color:rgb(155, 236, 155);
 }
 
@@ -142,6 +144,141 @@ footer {
 
 @media (max-width: 920px) {
 
+    header {
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        width: 96%;
+    
+    }
+    
+    .menu {
+        width: 32%;
+        text-align: left;
+        font-size: 1.1em;
+    
+    }
+    
+    .brille {
+        width: 32%;
+        text-align: center;
+    }
+    
+    .suche {
+        width: 32%;
+        text-align: right;
+    }
+    
+    
+    li {
+        text-align: center;
+        list-style: none;
+    }
+    
+    .landing {
+        width: 100%;
+        /*background-color: rgb(0,255,0);*/
+        background-color:rgb(155, 236, 155);
+        /* how is it possible to color the back-ground 100% ? ;-(( */
+        padding-bottom: 2em;
+    }
+    
+    .hashtag {  
+        color: white;
+        text-align: center;
+        padding-top: 0.5em;
+        font-size: 2em;
+    }
+    
+    #readingboard {
+        background-color: white;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 10px;
+    
+    }
+    .zeileeins {
+        font-size: 32px;
+    }
+    
+    .zeilezwei {
+        font-size: 24px;
+    }
+    
+    .zeiledrei {
+        font-size: 16px;
+    }
+    
+    
+    
+    
+    .infos {
+        /* attemt to adapt */
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    
+    
+    .hashtag_black {  
+        color: black;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    a.telephon:link {
+        padding: 1em;
+        padding-bottom: 2em;
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        font-size: 1.5em;
+        color: rgb(155, 236, 155);
+    }
+    
+    
+    .teil {
+        text-align: center;
+        margin: 2em;
+    }
+    
+    .mail {
+        width: 90%;
+        height: 3em;
+        text-align: center;
+        margin: 1.1em;
+    }
+    
+    .submit {
+        background-color: rgb(155, 236, 155);
+        text-align: center;
+        width: 50%;
+        height: 3em;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 1.2em;
+    }
+    
+    
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2em;
+        margin-top: 3em;
+        padding: 0.5em;
+        background-color: black;
+        /* how is it possible to color the back-ground 100% ? ;-(( */
+        color:rgb(155, 236, 155);
+    }
+    
+    .footer_links {
+        color:rgb(155, 236, 155);
+    }
+
     
 }
 
@@ -151,13 +288,143 @@ footer {
 
 @media (max-width: 1280px) {
 
+    header {
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        width: 96%;
+    
+    }
+    
+    .menu {
+        width: 32%;
+        text-align: left;
+        font-size: 1.1em;
+    
+    }
+    
+    .brille {
+        width: 32%;
+        text-align: center;
+    }
+    
+    .suche {
+        width: 32%;
+        text-align: right;
+    }
+    
+    
+    li {
+        text-align: center;
+        list-style: none;
+    }
+    
+    .landing {
+        width: 100%;
+        /*background-color: rgb(0,255,0);*/
+        background-color:rgb(155, 236, 155);
+        /* how is it possible to color the back-ground 100% ? ;-(( */
+        padding-bottom: 2em;
+    }
+    
+    .hashtag {  
+        color: white;
+        text-align: center;
+        padding-top: 0.5em;
+        font-size: 2em;
+    }
+    
+    #readingboard {
+        background-color: white;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 10px;
+    
+    }
+    .zeileeins {
+        font-size: 32px;
+    }
+    
+    .zeilezwei {
+        font-size: 24px;
+    }
+    
+    .zeiledrei {
+        font-size: 16px;
+    }
+    
+    
+    
+    
+    .infos {
+        /* attemt to adapt */
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    
+    
+    .hashtag_black {  
+        color: black;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    a.telephon:link {
+        padding: 1em;
+        padding-bottom: 2em;
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        font-size: 1.5em;
+        color: rgb(155, 236, 155);
+    }
+    
+    
+    .teil {
+        text-align: center;
+        margin: 2em;
+    }
+    
+    .mail {
+        width: 90%;
+        height: 3em;
+        text-align: center;
+        margin: 1.1em;
+    }
+    
+    .submit {
+        background-color: rgb(155, 236, 155);
+        text-align: center;
+        width: 50%;
+        height: 3em;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 1.2em;
+    }
+    
+    
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2em;
+        margin-top: 3em;
+        padding: 0.5em;
+        background-color: black;
+        /* how is it possible to color the back-ground 100% ? ;-(( */
+        color:rgb(155, 236, 155);
+    }
+    
+    .footer_links {
+        color:rgb(155, 236, 155);
+    }
+
     
 }
-
-
-
-
-
 
 
 
